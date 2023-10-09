@@ -17,15 +17,17 @@ tailwind.config = {
             'head_bg': '#282828',
             'footer_bg': '#1F1F1F',
             'overlay_bg': 'rgba(0, 0, 0, 0.60)',
-            'about-bg': '#F0F0F0',
+            'about_bg': '#F0F0F0',
           },
           fontFamily: {
             'poppins': "Poppins, sans-serif"
           },
           backgroundImage: {
             'banner': "linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('images/banner.jpg')",
-            
-        },
-        },
+            'oil_refiner': "linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('images/service1.jpg')",
+            'industry_bg': "linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('images/service2.png')",
+            'supply_bg': "linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('images/service3.png')",
+          },
     },
+  },
 }
