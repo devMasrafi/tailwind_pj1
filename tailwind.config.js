@@ -24,6 +24,7 @@ tailwind.config = {
           },
           backgroundImage: {
             'banner': "linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('images/banner.jpg')",
+            
         },
         },
     },
