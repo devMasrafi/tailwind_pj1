@@ -5,9 +5,6 @@ tailwind.config = {
             center: true,
             padding: '2rem',
           },
-          screens: {
-            'xl': '1140px',
-          },
           colors: {
             'primary': '#fff',
             'btn': 'rgba(255, 255, 255, 0.50)',
