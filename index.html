@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tailwind project</title>
+
     <!-- googlefonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
     <!-- fontweasome link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     <!-- css all link  -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
 </head>
 <body>
-    <!-- Header-->
-    <header class="bg-head_bg text-white py-4 border-b-[3px] border-[#FFB800] font-poppins text-[12px]">
-        <div class="container">
+<!-- header -->
+    <section class="bg-head_bg text-white py-4 relative after:absolute after:content-['']  after:bottom-[-1px] after:bg-yellow after:w-full after:h-[2px]">
+        <div class="max-w-container mx-auto">
             <div class="flex align-center justify-between">
                 <div class="flex align-center gap-[54px]">
                     <div><i class="fa-regular fa-envelope"></i>
@@ -31,112 +34,55 @@
                     <i class="fa-brands fa-instagram" href="***"></i>
                 </div>
             </div>
-        </div>
-    </header>
-<!-- navigation-bar -->
+          </div> 
+       </div>
+    </section>
+<!-- nav-bar -->
     <nav class="bg-common_bg">
-        <div class="container">
-            <div class="flex justify-between items-center py-[27px]">
-                <div>
-                    <picture>
-                        <img src="./images/Logo.png" alt="logo">
-                    </picture>
-                </div>
-                <div>
-                    <ul class="flex items-center gap-x-[40px] text-primary capitalize font-poppins justify-center font-semibold">
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">service</a></li>
-                        <li><a href="#">galary</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <a class="py-[15px] px-[30px] bg-transparent uppercase text-primary font-poppins font-semibold border-4" href="#">container</a>
-                </div>
+      <div class="max-w-container mx-auto">
+        <div class="flex justify-between items-center py-[27px]">
+            <div>
+                <picture>
+                    <img src="./images/Logo.png" alt="logo">
+                </picture>
+            </div>
+            <div>
+                <ul class="flex items-center gap-x-[40px] text-primary capitalize font-poppins justify-center font-semibold">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">service</a></li>
+                    <li><a href="#">galary</a></li>
+                </ul>
+            </div>
+            <div>
+                <a class="py-[15px] px-[30px] bg-transparent uppercase text-primary font-poppins font-semibold border-4" href="#">container</a>
             </div>
         </div>
     </nav>
-
-    <!-- banner -->
-    <section class="bg-banner bg-no-repeat bg-cover">
-        <div class="container">
+<!-- banner -->
+    <section class="bg-banner py-32 bg-center bg-no-repeat bg-cover ">
+        <div class="max-w-container mx-auto">
             <div>
                 <div>
-                    <h1 class="pt-[257px] pb-[31px] text-[64px] text-primary font-bold w-[842px] leading-tight">We exist since 1975 on the oil and gas industry.</h1>
+                    <h1 class="pt-[147px] pb-[31px] text-[64px] text-primary font-bold w-[842px] leading-tight">We exist since 1975 on the oil and gas industry.</h1>
                 </div>
-                <div class="pb-[257px]">
+                <div class="pb-[137px]">
                     <a class="uppercase text-primary font-poppins bg-common_bg px-[40px] py-[13px] " href="#">learn more</a>
                 </div>
             </div>
-        </div>
+      </div>
     </section>
 
-    <!-- welcome-section -->
-    <section>
-        <div class="container">
-            <div class="flex items-center justify-between pt-[78px] pb-[100px]">
-                <div class="w-[290px]">
-                    <h2 class="font-poppins font-bold leading-[72px] text-[48px]">The biggest supplier on the country</h2>
-                </div>
-                <div class="w-[650px] ">
-                    <p class="text-[18px]">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
-                </div>
-            </div>
-        </div>
+<!-- welcome section -->
+    <section class="py-[85px]">
+        <div class="max-w-container mx-auto">
+            <div class="flex items-center gap-x-[196px]">
+                 <h2 class=" w-[290px] font-poppins font-bold leading-[78px] text-5xl">The biggest supplier on the country</h2>
+                 <p class="font-medium	text-[16px] w-[621px] capitalize leading-6 font-poppins text-[#6C6C6C]"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution.</p>
+           </div>
     </section>
 
-    <!-- slider-img -->
-    <section>
-        <div class="flex items-center justify-center gap-x-[29px]">
-            <div class="w-[458px] object-contain">
-                <picture>
-                    <a href="#">
-                        <img src="./images/slider-img-1.jpg" alt="slider-1">
-                    </a>
-                </picture>
-            </div>
-            <div class="w-[458px] object-contain">
-                <picture>
-                    <a href="#">
-                        <img src="./images/slider-img-2.jpg" alt="slider-1">
-                    </a>
-                </picture>
-            </div>
-            <div class="w-[458px] object-contain">
-                <picture>
-                    <a href="#">
-                        <img src="./images/slider-img-3.jpg" alt="slider-1">
-                    </a>
-                </picture>
-            </div>
-            <div class="w-[458px] object-contain">
-                <picture>
-                    <a href="#">
-                        <img src="./images/slider-img-4.png" alt="slider-1">
-                    </a>
-                </picture>
-            </div>
-        </div>
-    </section>
-
-    <!-- service -->
-    <section class="pt-[28px]">
-        <div class="flex justify-center flex-wrap">
-            <div class="py-[144px] px-[116px] bg-transparent w-[700px] 2xl:w-[960px] relative">
-                <div class="w-[420px] bg-transparent absolute top-[145px] right-[106px]">
-                    <h2 class="font-bold text-[64px] leading-tight font-poppins">Our Services</h2>
-                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                </div>
-            </div>
-            <div class="py-[147px] px-[116px] 2xl:w-[960px] bg-oil_refiner bg-no-repeat bg-cover">
-                <h2 class="text-[36px] leading-tight text-primary font-bold font-poppins pb-5">Modern natural oil and gas refineries.</h2>
-                <a class="py-[15px] px-[30px] capitalize bg-common_bg text-primary" href="#">learn more</a>
-            </div>
-        </div>
-    </section>
-
-
-    <!-- JS Tailwind Config -->
-    <script src="./tailwind.config.js"></script>
+     <!-- tailwind config section -->
+    <script src="tailwind.config.js"> </script>
 </body>
 </html>
