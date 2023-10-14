@@ -23,6 +23,7 @@ tailwind.config = {
       'oil_refiner': "linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('images/service1.jpg')",
       'industry_bg': "linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('images/service2.png')",
       'supply_bg': "linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('images/service3.png')",
+      'overlay': "linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)",
       }
     }
   }
