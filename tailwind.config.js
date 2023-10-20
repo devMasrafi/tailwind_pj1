@@ -1,6 +1,9 @@
 tailwind.config = {
   theme: {
     extend: {
+      boxShadow: {
+        'dark-overlay': 'inset 0 0 0 9999px rgba(0, 0, 0, 0.7)',
+      },
       colors: {
         'primary': '#fff',
         'btn': 'rgba(255, 255, 255, 0.50)',
